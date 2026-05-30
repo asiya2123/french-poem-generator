@@ -39,7 +39,7 @@ form{
     border: none;
     cursor: pointer;
 }
-.poem-display{
+.poem-generator{
     border-left: 12px solid salmon;
     background-color: #fff;
     text-align: left;

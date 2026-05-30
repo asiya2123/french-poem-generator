@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title> AI French-poem</title>
 </head>
 <body>
@@ -13,19 +14,10 @@
     </header>
     <main>
         <form>
-            <input type="text" name="search" class="instructions" id="" placeholder="Enter the topic of french poem" autofocus required autocomplete="off">
-            <input type="submit" class="submit-button">
+            <input type="text" name="search" class="instructions" id="topic-searchBox" placeholder="Enter the topic of french poem" autofocus required autocomplete="off">
+            <input type="submit" class="submit-button" id="submit-button">
         </form>
-        <div class="poem-display">
-            <p>
-                Beneath the evening sky with golden hues,
-                <br>
-                Stars are born in gentle calm.
-                <br>
-                The wind whispers to sleeping leaves,
-                <br>
-                Ancient secrets kept by the night.
-            </p>
+        <div class="poem-generator" id="poem">
         </div>
     </main>
     <footer>
